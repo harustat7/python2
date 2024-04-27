@@ -224,11 +224,89 @@ print(a-b)
 print(a**b) #a^b
 print(a/b)
 print(a%b)#remainder
-"""
+
 
 #relational operators
 a=50
 b=20
 
 print(a == b)
+print(a != b)
+print(a < b)
 
+
+#assignment operators
+num=10
+num=num+10
+num+=10 #(line 240 and 241 have same meaning)
+print(num)
+
+num*=5
+print(num)
+
+
+#logical operators
+print(not False)
+print(not True)
+
+a=50
+b=30
+print(not(a>b))
+
+value1=True
+value2=False
+
+print(value1 and value2)
+print(value1 or value2)
+
+
+#type conversion
+(one type of variable to another type)
+it is of two types conversion(automatically) and casting(manually)
+
+
+a=2 #if a is a string then it cannot be converted to float
+b=4.25
+sum=a+b #float is superior as compared to int
+print(sum)
+
+#type casting
+a,b=2,"4.25"
+c=float(b)
+sum=a+c
+print(sum)
+
+a=3.14
+a=str(a)
+print(type(a))
+
+#write a program to input 2 numbers and print their sum
+num1=int(input("num1: "))
+num2=int(input("num2: "))
+sum=num1+num2
+print(sum)
+
+#wap to input the side of a square and print its area
+side=float(input("side of square: "))
+area=side*side
+print(area)
+
+
+#wap to input 2 floating point numbers and print their average
+num1=float(input("num1: "))
+num2=float(input("num2: "))
+average=(num1+num2)/2
+print(average)
+"""
+
+#wap to input 2 int numbers a and b
+#print true if a is greater than or equal to b.if not then print false
+
+n1=int(input("n1:"))
+n2=int(input("n2:"))
+
+if(n1>=n2):
+    print("True")
+
+else:
+    print("False")
