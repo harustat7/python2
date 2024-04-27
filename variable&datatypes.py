@@ -82,8 +82,6 @@ these are symbols to organise sentence structure in programming language
 
 #python is implicit typed language(datatype is automatically defined,no need to mention like in explicit typed language) 
 
-
-
 expression execution-
 1) string and numeric values can operate together with *
 a,b=2,3
@@ -208,5 +206,29 @@ vote=("yes","no")[age<=18]
 sal=float(input("salary: "))
 tax=sal*(0.1,0.2)[sal>=50000]
 print(tax)
+
+
+#type of operators
+an operator is a symbol that performs a certain oeration between operands
+1)arithmetic operators(+,-,/,%,**)
+
+2)relational/comparsion operators(==,!=,>,<,*=,%=,**=)
+
+3)logical operators(not,and,or)
+
+#arithemetic operators
+a = 5
+b = 3
+print(a+b)
+print(a-b)
+print(a**b) #a^b
+print(a/b)
+print(a%b)#remainder
 """
+
+#relational operators
+a=50
+b=20
+
+print(a == b)
 
