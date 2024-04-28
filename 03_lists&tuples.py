@@ -49,3 +49,8 @@ print(list)
 list.pop(2)#pops the value at a specific index (list.pop(idx))
 print(list)
 """
+#uples(a built-in data type that lets us create immutable sequencs of values.)
+tup=(87,65,33,78,10)
+print(tup[0])
+tup1=()
+print(tup1)
