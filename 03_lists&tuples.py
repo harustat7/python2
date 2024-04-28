@@ -48,9 +48,56 @@ list.remove(1)#removes first occurence of the element
 print(list)
 list.pop(2)#pops the value at a specific index (list.pop(idx))
 print(list)
-"""
-#uples(a built-in data type that lets us create immutable sequencs of values.)
+
+#tuples(a built-in data type that lets us create immutable sequencs of values.)
 tup=(87,65,33,78,10)
 print(tup[0])
-tup1=()
+tup1=()#empty tuple
 print(tup1)
+#slicing
+print(tup[1:3])
+
+#tuple methods
+
+tup=(2,1,3,1)
+print(tup.index(1))#returns index of first occurence
+print(tup.count(2))#count total occurences
+
+#wap to ask the user to enter names of their 3 favourite movies and stores them in a list.
+n1=str(input("name of first movie:"))
+n2=str(input("name of second movie:"))
+n3=str(input("name of first movie:"))
+
+list=[n1,n2,n3]
+print(list)
+
+#wap to check if list contains a palindrome of elements
+list1=[1,'ab','ab',1]
+list2=[1,2,3]
+
+copy_list1=list1.copy()
+copy_list1.reverse()
+
+if(copy_list1 == list1):
+    print("palindrome")
+else:
+    print("not palindrome")
+
+copy_list2=list2.copy()
+copy_list2.reverse()
+
+if(copy_list2 == list2):
+    print("palindrome")
+else:
+    print("not palindrome")
+"""
+
+#wap to count the number of students with grade A in the following tuple
+tup=("c","d","a","a","b","b","a")
+
+print(tup.count("a"))
+
+#sort the above values in a list and sort them from "a" to "d"
+list=["c","d","a","a","b","b","a"]
+list.sort()
+print(list)
